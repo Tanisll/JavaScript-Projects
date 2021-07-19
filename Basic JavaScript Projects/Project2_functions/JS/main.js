@@ -9,7 +9,7 @@ var E = "Save on Budle Deal! Buy "
 function Make_Blue() {
     var Blue_Text = "this should be blue";
     var Green_Text = "this should be green";
-    var result = Blue_Text.fontcolor("blue");
+    var result = Blue_Text.fontcolor("blue") + " and " + Green_Text.fontcolor("green");
     document.getElementById("Two_Colors") .innerHTML = result;
 }
 
