@@ -1,13 +1,20 @@
+var A = "$5";
+var B = "$10";
+var C = "$15";
+var D = "$12";
+var E = "Save on Budle Deal! Buy "
+
+//window.alert(E)//
+
 function Make_Blue() {
-    var str = "this should be blue";
-    var result = str.fontcolor("blue");
-    document.getElementById("Blue_A") .innerHTML = result;
+    var Blue_Text = "this should be blue";
+    var Green_Text = "this should be green";
+    var result = Blue_Text.fontcolor("blue");
+    document.getElementById("Two_Colors") .innerHTML = result;
 }
 
-var A = $5;
-var B = $10;
-var C = A+B;
-var D = A+B*0.8;
-
-window.alert("Save on Budle Deal! Buy " document.write(C) "and get it for " document.write(D) "!!!")
-
+function smash(){
+    var a = "This sentence"
+    a += " should be joined together"
+    document.write(a)
+}
