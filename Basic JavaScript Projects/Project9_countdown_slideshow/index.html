@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title></title>
+		<meta charset="utf-8" name="Jacob Loveland" content="">
+		<script src="JS/main.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/slideshow.css">
+	</head>
+	<body>
+        <h1>Alarm Clock</h1>
+        <p>How many seconds would you like to set your alarm for?</p>
+        <input id="seconds" value="">
+        <button onclick="countdown()">Start Timer!</button>
+        <p id="timer"></p>
+        <br>
+        <hr>
+        <br>
+        <h1 style="text-align: center;">Slide Show</h1>
+        <div class="slideshow-container">
+
+            <!-- images with number and caption text -->
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="./images/Puppy_7.jpg" style="width:100%">
+              <div class="text">This is Ms. Blue at 13 weeks old. She's super <br>independant and loves to be on her own.</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="./images/Puppy_8.jpg" style="width:100%">
+              <div class="text">This is Ms. Brown at 13 weeks old. Her brown ears <br>are almost completely gone now. She is always looking for attention.</div>
+            </div>
+          
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="./images/Puppy_9.jpg" style="width:100%">
+              <div class="text">This is Mr. Green at 13 weeks old. His face is one <br>of more hansom dogs of the year. Its hard to pick favorites though.</div>
+            </div>
+          
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+          <br>
+          
+          <!-- The dots/circles -->
+          <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+          </div>
+	</body>
+</html>
