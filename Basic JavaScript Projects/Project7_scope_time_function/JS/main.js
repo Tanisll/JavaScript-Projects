@@ -42,3 +42,12 @@ function money_check(){
     }
     document.getElementById("advice").innerHTML=your_money;
 }
+
+function concat(){
+    var A="I don't know ";
+    var B="why you'd ever ";
+    var C="want to ";
+    var D="do this!";
+    var in_full=A.concat(B,C,D);
+    document.getElementById("full").innerHTML=in_full;
+}
