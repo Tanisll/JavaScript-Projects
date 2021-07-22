@@ -34,3 +34,9 @@ function value_Method(){
     var X=12938.3216549874561;
     document.getElementById("value").innerHTML=X.valueOf();
 }
+
+function combind(){
+    var X="Part 1 "
+    var Y="and part 2."
+    document.getElementById("text").innerHTML=X.concat(Y)
+}
