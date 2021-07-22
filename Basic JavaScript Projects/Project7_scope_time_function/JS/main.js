@@ -6,13 +6,20 @@ function local_variable(){
 }
 
 function get_date(){
-    if (new Date().getHours() <18){
-        document.getElementById("Greeting").innerHTML="How are you today?";
+    var A=new Date().getHours();
+    var B;
+    if (A>18){
+        B="How are you today?";
     }
+    else {
+        B="How are you tonight?"
+    }
+        document.getElementById("Greeting").innerHTML=B
 }
+console.log("If it is after 6pm the first button, should say 'How are you tonight?'")
 
 function clock(){
-    if (new Date().getHours() <5){
+    if (new Date().getHours() <5);{
         document.getElementById("time").innerHTML="Go to bed!";
     }
 }
