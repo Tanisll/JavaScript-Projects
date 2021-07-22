@@ -6,5 +6,21 @@
 		<script src="JS/main.js"></script>
 	</head>
 	<body>
+        <p id="Greeting" onclick="get_date()">click</p>
+        <p id="time" onclick="clock()">Click to see if you should go to bed</p>
+        <br>
+        <hr>
+        <br>
+        <h3>Are you staying up too late? Find out below!</h3>
+        <input id="bed" placeholder="Military Time Only">
+        <p id="answer"></p>
+        <button onclick="bed_time()">Submit</button>
+        <br>
+        <hr>
+        <br>
+        <h3>Do you have enough money?</h3>
+        $<input id="amount" placeholder="Numbers Only">
+        <p id="advice"></p>
+        <button onclick="money_check()">Get my FREE advice!</button>
 	</body>
 </html>
