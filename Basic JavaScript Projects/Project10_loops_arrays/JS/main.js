@@ -38,3 +38,52 @@ function music(){
     musinst.price="$900";
     document.getElementById("constant").innerHTML="The cost of the " + musinst.type+" was "+musinst.price+".";
 }
+var X = "This is a global variable."
+function global(){
+    document.getElementById("global").innerHTML=X
+}
+
+{
+    let X="This is a block scope variable";
+    document.getElementById("block").innerHTML=X
+}
+
+function return_func() {
+    return Math.PI;
+  }
+    document.getElementById("return").innerHTML=return_func();
+
+let car={
+    make:"Dodge ",
+    model:"Ram 1500.",
+    year:"2005 ",
+    color:"Silver and Black ",
+    description: function(){
+        return "My favorite vehicle I've ever owned was a "+this.year+this.color+this.make+this.model;
+    }
+};
+document.getElementById("Car_Object").innerHTML=car.description();
+
+function break_func() {
+    var text = "";
+    var x;
+    for (x = 0; x < 10; x++) {
+      if (x === 5) {
+        break;
+      }
+      text += "The number is " + x + "<br>";
+    }
+    document.getElementById("break").innerHTML = text;
+  }
+
+  function cont_func() {
+    var text = "";
+    var y;
+    for (y = 0; y < 5; y++) {
+      if (y === 3) {
+        continue;
+      }
+      text += "The number is " + y + "<br>";
+    }
+    document.getElementById("continue").innerHTML = text;
+  }
