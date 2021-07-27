@@ -31,7 +31,7 @@ function Handle_Operator(Next_Operator){
         return;
     }
     if(First_operand==null){
-        Calculator.First_Operand=Value_of_Input;
+        Calculator.First_operand=Value_of_Input;
     }
     else if (operator) {
         const Value_Now=First_operand||0;
@@ -39,7 +39,7 @@ function Handle_Operator(Next_Operator){
         result=Number(result).toFixed(9)
         result=(result*1).toString()
         Calculator.Display_Value=parseFloat(result);
-        Calculator.First_Operand=parseFloat(result);
+        Calculator.First_operand=parseFloat(result);
     }
     Calculator.Wait_Second_Operand=true;
     Calculator.operator=Next_Operator;
