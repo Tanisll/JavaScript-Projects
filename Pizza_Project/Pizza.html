@@ -8,6 +8,13 @@
 		<link rel="stylesheet" type="text/css" href="./Pizza_CSS/Pizza.css">
 	</head>
     <body>
+        <script>
+            document.body.classList.add('fade-out');
+            window.addEventListener('DOMContentLoaded', () => {
+	            document.body.classList.remove('fade-out');
+            });
+        </script>
+
         <div id="menuBG">
             <h1 style="margin: 0 0px 0 20px;">Pizza Drill Tutorial</h1>
             <input id="btnOrder" type="button" onclick="getReceipt()" value="Place Order">
@@ -45,6 +52,10 @@
                 <div id="cart">
                     <div id="showText"></div>
                     <div id="totalPrice"></div>
+                </div>
+
+                <div class="fadeAway">
+                    <h1>Fade away, fade away, fade away...</h1>
                 </div>
             </form>
         </div>
