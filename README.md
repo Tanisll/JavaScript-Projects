@@ -4,10 +4,10 @@
 
 ## Projects
 
-*[Pizza Menu](https://github.com/Tanisll/JavaScript-Projects/tree/main/Pizza_Project)
-*[Tic-Tac-Toe Game](https://github.com/Tanisll/JavaScript-Projects/tree/main/TicTacToe)
-*[Calculator](https://github.com/Tanisll/JavaScript-Projects/tree/main/Calculator)
-*[To-Do App](https://github.com/Tanisll/JavaScript-Projects/tree/main/todo_app)
+* [Pizza Menu](https://github.com/Tanisll/JavaScript-Projects/tree/main/Pizza_Project)
+* [Tic-Tac-Toe Game](https://github.com/Tanisll/JavaScript-Projects/tree/main/TicTacToe)
+* [Calculator](https://github.com/Tanisll/JavaScript-Projects/tree/main/Calculator)
+* [To-Do App](https://github.com/Tanisll/JavaScript-Projects/tree/main/todo_app)
 
 I also did a few small experiments  using [AJAX](https://github.com/Tanisll/JavaScript-Projects/tree/main/AJAX), [jQuery](https://github.com/Tanisll/JavaScript-Projects/tree/main/jQuery), and [React](https://github.com/Tanisll/JavaScript-Projects/tree/main/React_Projects). 
 
